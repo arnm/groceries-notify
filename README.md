@@ -20,19 +20,22 @@ available for H-E-B grocery stores nearby.
     ``` sh
     expo client:install:android
     ```
-6. Run application:
+6. Install dependencies:
+   ```sh
+   yarn install
+   ```
+7. Run application:
     ``` sh
     yarn start
 
     # if you encounter error, it may be good start like so
     expo start --clear
     ```
-7. Run on Android Emulator (with iOS you will need [extra setup steps for background tasks][ios-background-setup])
+8. Run on Android Emulator (with iOS you will need [extra setup steps for background tasks][ios-background-setup])
 
 # References
 
-https://docs.expo.io/versions/v37.0.0/sdk/task-manager/
-https://docs.expo.io/versions/latest/sdk/background-fetch/
-
+- https://docs.expo.io/versions/v37.0.0/sdk/task-manager/
+- https://docs.expo.io/versions/latest/sdk/background-fetch/
 
 [ios-background-setup]: https://docs.expo.io/versions/latest/sdk/task-manager/#background-modes-on-ios
