@@ -1,11 +1,9 @@
 {
   "expo": {
-    "name": "HelloWorld",
+    "name": "Groceries Notify",
     "slug": "groceries-notify",
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",

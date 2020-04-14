@@ -2,7 +2,7 @@
 # groceries-notify
 
 Mobile application which will notify you when available Curbside Service is
-available for H-E-B grocery stores nearby.
+available for [H-E-B][heb] grocery stores nearby.
 
 # Development
 
@@ -36,6 +36,10 @@ available for H-E-B grocery stores nearby.
 # References
 
 - https://docs.expo.io/versions/v37.0.0/sdk/task-manager/
-- https://docs.expo.io/versions/latest/sdk/background-fetch/
+- https://docs.expo.io/versions/v37.0.0/sdk/background-fetch/
+- https://docs.expo.io/versions/v37.0.0/guides/push-notifications/
+- https://docs.expo.io/versions/v37.0.0/guides/using-fcm/
+- https://docs.expo.io/versions/v37.0.0/react-native/network/
 
+[heb]: https://www.heb.com/
 [ios-background-setup]: https://docs.expo.io/versions/latest/sdk/task-manager/#background-modes-on-ios
