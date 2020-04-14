@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Groceries Notify",
-    "slug": "groceries-notify",
+    "name": "H-E-B Curbside Alerts",
+    "slug": "heb-curbside-alerts",
     "platforms": [
       "android"
     ],
@@ -19,8 +19,9 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
+    "android": {
+      "package": "com.alexeinunez.hebcurbsidealerts",
+      "versionCode": 1
     }
   }
 }

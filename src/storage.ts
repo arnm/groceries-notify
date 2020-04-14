@@ -1,4 +1,3 @@
-
 import * as SecureStore from 'expo-secure-store';
 export const ZIPCODE_KEY = 'groceries-notify-zipCode';
 

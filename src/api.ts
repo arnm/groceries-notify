@@ -1,5 +1,4 @@
 
-
 export interface HEBStore {
     address1: string
     allowAtgCurbside: boolean

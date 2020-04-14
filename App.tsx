@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, AppState, AppStateStatus, FlatList, SafeAreaView, View } from 'react-native';
 import { Appbar, Button, Card, DefaultTheme, List, Provider as PaperProvider, Searchbar, Surface, Text } from 'react-native-paper';
 import { BackButton, NativeRouter, Route, useHistory, useParams } from 'react-router-native';
-import { fetchStores, HEBStoreItem } from './api';
-import { register, unregister } from './background';
-import * as Storage from './storage';
+import { fetchStores, HEBStoreItem } from './src/api';
+import { register, unregister } from './src/background';
+import * as Storage from './src/storage';
 
 
 const StoreViewer: React.FC = () => {

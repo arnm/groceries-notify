@@ -39,7 +39,7 @@ function task(): BackgroundFetch.Result {
 }
 
 export function register() {
-    BackgroundFetch.registerTaskAsync(TASK_NAME, { minimumInterval: 1 });
+    BackgroundFetch.registerTaskAsync(TASK_NAME);
 }
 
 export function unregister() {
